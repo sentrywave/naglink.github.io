@@ -214,6 +214,9 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-vimeo:before {
     content: "\f13e";
 }
+.icon-instagram:before {
+  content: "\ea92";
+}
 .flaticon-linkedin-big-logo:before {
     content: "\f13f";
 }
