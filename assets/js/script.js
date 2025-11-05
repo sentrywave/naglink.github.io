@@ -421,6 +421,10 @@
     /*------------------------------------------
       = FUNFACT
   -------------------------------------------*/
+    // Disable comma formatting
+    window.odometerOptions = {
+        format: 'd' // 'd' = integer with no formatting
+    };
     if ($(".odometer").length) {
         $('.odometer').appear();
         $(document.body).on('appear', '.odometer', function (e) {
